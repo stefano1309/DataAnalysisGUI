@@ -1,0 +1,27 @@
+                           
+                           ----------Instructions----------
+
+1) How to use the -Convert CSV to JSON- function:
+       You are asked to upload your complete CSV data set which should include 3 files 
+       (Inspections, Inventory and Violations). To ensure a correct upload it is necessary
+       to strictly follow the given order and upload the correct file. 
+       Once the 3 files have been added, you can proceed clicking -Convert and Save-, 
+       this will automatically generate 3 JSON files directly in the folder where your GUI is stored.
+       It is possible to convert as many CSV data sets as needed and then proceed in analysing one of it.
+
+2) How to use the -Analyse JSON- function:
+       You are asked to upload your data set in JSON format following the indicated order of upload. 
+       Proceed in clicking -Analyse-. 3 possible options are available depending on the desired outcome. 
+
+	2.1) Inspection score per year:
+                 Produces 2 tables showing the mean, median and mode of the inspection score per type 
+                 of vender's seating and zip code
+	2.2) Violation analysis:
+		Produces a table representing the reported infractions per each type of violation
+	2.3) Correlation analysis:
+                 Produces a regression analysis in order to find whether there is a correlation between 
+                 number of violations committed per vendor and their zip code.
+
+3) What is the -Download Tables- function:
+       The analysis of the data set produces graphs for easy and quick understanding, 
+       but with the Download Tables it is possible to download a JSON version of clean data.
